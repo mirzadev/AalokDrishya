@@ -5,8 +5,8 @@
   list-style: none;
   text-align: start;
   padding: 1rem 0.1rem;
-  background: rgb(58, 143, 227);
-  border: solid rgb(85, 159, 232);
+  background: rgb(34, 41, 49);
+  border: solid rgb(34, 41, 49);
   border-radius: 0.2rem;
 }
 
@@ -21,7 +21,7 @@
   height: 100%;
 }
 .dropdown-links:hover {
-  color: goldenrod;
+  color: rgb(8, 74, 155);
 }
 
 #activity-drop-menu {
@@ -38,7 +38,7 @@
 }
 
 #activity-menu:hover {
-  color: goldenrod;
+  color: rgb(9, 47, 215);
 }
 .activity-submenu li {
   padding: 0.3rem;

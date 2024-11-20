@@ -15,7 +15,7 @@ function HomeItems() {
       <div className="home_intro">
         <div className="homePg_title">
           <div className="home_logo">
-            <img id="GCH-logo" src={AD_Logo}></img>
+            <img id="AD-logo" src={AD_Logo}></img>
           </div>
           <h1 className="home_beng_title">আলোক দৃশ্য</h1>
         </div>

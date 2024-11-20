@@ -19,12 +19,6 @@ body {
   z-index: 9999;
 }
 
-#app-title {
-  color: navy;
-  font-size: 2rem;
-  font-weight: 800;
-  cursor: pointer;
-}
 .header-link {
   text-decoration: none;
 }
@@ -40,7 +34,7 @@ body {
 .nav-links {
   text-decoration: none;
   font-family: Tahoma, sans-serif;
-  color: rgb(5, 5, 79);
+  color: navy;
   font-size: 1rem;
   font-weight: 600;
   padding: 1.2rem 0.5rem;
@@ -52,8 +46,8 @@ body {
 }
 
 .nav-links:hover {
-  background-color: rgb(10, 105, 200);
-  color: rgb(228, 147, 42);
+  background-color: rgb(179, 190, 199);
+  color: rgb(9, 47, 215);
   border-radius: 4px;
   transition: all 0, 2s ease-in-out;
 }
@@ -61,42 +55,16 @@ body {
   display: none;
 }
 
-.membership {
-  padding: 0.5rem 1rem;
-  margin-right: 1rem;
-  white-space: nowrap;
-  border-radius: 0.3rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  border-color: navy;
-  cursor: pointer;
-  background: transparent;
-  color: navy;
-  transition: 0.2s ease-in-out;
-}
-
-.membership:hover {
-  background-color: rgb(10, 105, 200);
-  color: rgb(228, 147, 42);
-  border-color: beige;
-}
-
 .menu-icons {
   display: none;
 }
-#GCH-logo {
+#AD-logo {
   padding-top: 0.6rem;
   height: 4rem;
   width: 12rem;
 }
 
 @media screen and (max-width: 850px) {
-  #app-title {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-right: 0.6rem;
-  }
-
   .NavbarItems {
     z-index: 99;
     padding: 0 15px;
@@ -138,9 +106,7 @@ body {
     background: rgb(89, 149, 233);
     transition: none;
   }
-  .membership {
-    display: none;
-  }
+
   .nav-link-mobile {
     display: block;
     text-decoration: none;
@@ -156,10 +122,10 @@ body {
     letter-spacing: 2px;
   }
   .nav-link-mobile:hover {
-    background: rgb(89, 149, 233);
+    background: rgb(187, 196, 209);
     width: 100%;
     transition: none;
-    color: goldenrod;
+    color: rgb(22, 6, 164);
   }
   .menu-icons {
     display: block;
@@ -170,7 +136,7 @@ body {
     color: navy;
   }
 
-  #GCH-logo {
+  #AD-logo {
     padding-top: 0.5rem;
     height: 3.5rem;
     width: 3rem;

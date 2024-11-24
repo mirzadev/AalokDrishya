@@ -10,7 +10,6 @@
   font-size: 1.2rem;
   font-family: sans-serif;
   text-align: justify;
-  /* padding-bottom: 1rem; */
 }
 
 .homePg_title {
@@ -34,4 +33,10 @@
   font-style: italic;
   font-weight: bold;
   font-size: 2.65rem;
+}
+
+.carousel-img-display {
+  max-width: fit-content;
+  width: 100%;
+  margin: 0 auto;
 }

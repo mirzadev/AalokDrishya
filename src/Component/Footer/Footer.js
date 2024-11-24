@@ -16,7 +16,7 @@ const Footer = () => {
           <h4>Social Media</h4>
           <div className="social-media">
             <Link
-              to="https://www.facebook.com/kptv24"
+              to="https://www.facebook.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -32,7 +32,7 @@ const Footer = () => {
               />
             </Link>
             <Link
-              to="https://www.youtube.com/@karigor_production"
+              to="https://www.youtube.com/@pspmusic-florida1643"
               target="_blank"
               rel="noreferrer"
             >
@@ -45,18 +45,18 @@ const Footer = () => {
           <div className="link-menues">
             <div className="link-menu-1">
               <Link to="/about">About Us</Link>
-              <Link to="/contact">Contact Us</Link>
-              <Link to="/events">Events</Link>
+              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/work">Work</Link>
             </div>
             <div className="link-menu-2">
-              <Link to="/boishakh">Pohela Boishakh</Link>
-              <Link to="/ekCupCha">Ek Cup Cha</Link>
-              <Link to="/kpCulture">Cultural Events</Link>
+              <Link to="/commercial">Commercial</Link>
+              <Link to="/wedding">Wedding</Link>
+              <Link to="/boishakh">Real Estate</Link>
             </div>
             <div className="link-menu-3">
-              <Link to="/boishakh">Pohela Boishakh</Link>
-              <Link to="/ekCupCha">Ek Cup Cha</Link>
-              <Link to="/kpCulture">Cultural Events</Link>
+              <Link to="/ekCupCha">Product</Link>
+              <Link to="/kpCulture">Food</Link>
+              <Link to="/book">Book Us</Link>
             </div>
           </div>
         </div>
@@ -65,20 +65,20 @@ const Footer = () => {
           <div className="contact-footer_items">
             <div className="location-address">
               <Link
-                to="https://www.google.com/maps/@26.6229841,-80.1158108,3a,75y,274.5h,90t/data=!3m6!1e1!3m4!1sdGWJyKVny4bUXrWa2BcDRw!2e0!7i16384!8i8192?entry=ttu"
+                to="https://www.google.com/maps/place/512+Shady+Pine+Way,+Greenacres,+FL+33415/@26.6398988,-80.1460499,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9262ad0671287:0xde974d1673268148!8m2!3d26.639894!4d-80.143475!16s%2Fg%2F11cscj25n8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img src={Location} alt="location" height="40" width="40" />
               </Link>
               <Link
-                to="https://www.google.com/maps/@26.6229841,-80.1158108,3a,75y,274.5h,90t/data=!3m6!1e1!3m4!1sdGWJyKVny4bUXrWa2BcDRw!2e0!7i16384!8i8192?entry=ttu"
+                to="https://www.google.com/maps/place/512+Shady+Pine+Way,+Greenacres,+FL+33415/@26.6398988,-80.1460499,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9262ad0671287:0xde974d1673268148!8m2!3d26.639894!4d-80.143475!16s%2Fg%2F11cscj25n8?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div className="loc_address_cont">
-                  <p className="location-address">3726 Nyack Lane</p>
-                  <p className="location-address">Lake Worth, FL-33463</p>
+                  <p className="location-address">512 Shady Pine Way, #B1</p>
+                  <p className="location-address">Greenacres, FL-33415</p>
                 </div>
               </Link>
             </div>
@@ -88,23 +88,23 @@ const Footer = () => {
                   <img src={Telephone} alt="telephone" height="30" width="30" />
                 </Link>
                 <a>
-                  <p className="telephone-number">1(561) 779 4154 (Cell)</p>
+                  <p className="telephone-number">1(561) 418 9672 (Cell)</p>
                 </a>
               </div>
               <div className="email">
                 <Link
-                  to="mailto:kptv24@gmail.com"
+                  to="mailto:qazirabbani@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={Email} alt="email" height="30" width="30" />
                 </Link>
                 <Link
-                  to="mailto:kptv24@gmail.com"
+                  to="mailto:qazirabbani@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <p className="email-address">kptv24@gmail.com</p>
+                  <p className="email-address">qazirabbani@gmail.com</p>
                 </Link>
               </div>
             </div>

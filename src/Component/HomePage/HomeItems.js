@@ -1,17 +1,20 @@
 import React from "react";
 import "./HomeStyle.css";
-import coverImage from "../../Assets/Cover/cover-image.jpg";
+// import coverImage from "../../Assets/Cover/cover-image.jpg";
 import AD_Logo from "../../Assets/Cover/AalokDrishty_Logo.png";
+// import Carousel from "../CorouselItems/Carousel";
+// import slides from "../CorouselItems/CarouselMenu";
 
 function HomeItems() {
   return (
     <section className="my-5">
-      <img
+      {/* <img
         src={coverImage}
         className="my-2"
         style={{ width: "100%" }}
         alt="cover"
-      />
+      /> */}
+
       <div className="home_intro">
         <div className="homePg_title">
           <div className="home_logo">

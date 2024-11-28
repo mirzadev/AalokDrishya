@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import Navbar from "./Component/NavbarItems/Navbar";
 import About from "./routes/About";
+import "leaflet/dist/leaflet.css";
 
 function App() {
   return (

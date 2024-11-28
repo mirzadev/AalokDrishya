@@ -103,6 +103,58 @@
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+
+.life_at_AD {
+  margin-top: 4rem;
+}
+
+.Official_Contact {
+  font-family: "Lucida Sans";
+  font-size: 1.2rem;
+  margin-top: 4rem;
+}
+
+.ContactInfo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.office-loc {
+  margin-right: 3rem;
+}
+.office-loc a:hover,
+.email-contact a:hover {
+  color: blueviolet;
+}
+.office-loc a,
+.email-contact a {
+  color: black;
+  text-decoration: none;
+}
+.tel-contact {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.phoneNumber:hover {
+  color: blueviolet;
+}
+.email-contact {
+  margin-left: 3rem;
+}
+.office-loc-logo {
+  height: 5rem;
+  width: 5rem;
+}
+.ContactInfo h2 {
+  margin-top: 0.75rem;
+}
+.map-location {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-bottom: -20rem;
+}
+
 @media screen and (max-width: 850px) {
   .about-container {
     margin: 4rem 4rem;

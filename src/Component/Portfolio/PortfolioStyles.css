@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 5 images per row */
+  gap: 10px;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  width: 100%; /* Ensure the container takes full width available */
+  height: auto; /* Fixed height for uniform image size */
+  overflow: hidden; /* Hide overflow to crop the image */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.thumbnail img {
+  width: 100%; /* Fill the container width */
+  height: 100%; /* Fill the container height */
+  object-fit: cover; /* Crop the image while maintaining aspect ratio */
+  transition: transform 0.3s ease;
+}
+
+.thumbnail img:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.arrow-button.prev {
+  left: 10px;
+}
+
+.arrow-button.next {
+  right: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.close:hover {
+  color: red;
+}

@@ -8,13 +8,6 @@ import AD_Logo from "../../Assets/Cover/AalokDrishty_Logo.png";
 function HomeItems() {
   return (
     <section className="my-5">
-      {/* <img
-        src={coverImage}
-        className="my-2"
-        style={{ width: "100%" }}
-        alt="cover"
-      /> */}
-
       <div className="home_intro">
         <div className="homePg_title">
           <div className="home_logo">
@@ -35,7 +28,7 @@ function HomeItems() {
         </p>
       </div>
       <div>
-        <h1 id="featured_Album">Featured Album</h1>
+        <h1 id="featured_Album">Featured Albums</h1>
       </div>
       <div></div>
     </section>

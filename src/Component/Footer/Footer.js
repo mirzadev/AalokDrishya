@@ -78,7 +78,7 @@ const Footer = () => {
               >
                 <div className="loc_address_cont">
                   <p className="location-address">512 Shady Pine Way, #B1</p>
-                  <p className="location-address">Greenacres, FL-33415</p>
+                  <p className="location-address1">Greenacres, FL-33415</p>
                 </div>
               </Link>
             </div>

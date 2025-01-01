@@ -17,8 +17,6 @@ import image14 from "../../Assets/Work/RealEstate/RealEstate-14.jpg";
 import image15 from "../../Assets/Work/RealEstate/RealEstate-15.jpg";
 import image16 from "../../Assets/Work/RealEstate/RealEstate-16.jpg";
 
-//import "./PortfolioItems";
-
 const RealEstateGallery = () => {
   // Array to hold image file paths
   const images = [

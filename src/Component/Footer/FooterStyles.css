@@ -78,13 +78,15 @@
   margin-bottom: 1rem;
 }
 
-.location-address {
+.location-address,
+.location-address1 {
   display: flex;
   justify-content: space-between;
   margin-left: 0.5rem;
 }
 
 .location-address p,
+.location-address1 P,
 .telephone-number,
 .email-address {
   font-size: 1rem;
@@ -159,19 +161,21 @@
 
 @media screen and (max-width: 850px) {
   .footer {
-    padding: 1.5rem 2rem;
+    padding: 5rem 0.5rem;
   }
 
   .footer h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .footer a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
-
+  .footer p {
+    font-size: 0.8rem;
+  }
   .copyright-note {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .social-media-div,
@@ -190,8 +194,31 @@
     flex-direction: column;
   }
   .location-address p,
+  .location-address1 p,
   .telephone-number,
   .email-address {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  .location-address,
+  .location-address1 {
+    margin-left: 0.3rem;
+  }
+  .Tel_email {
+    margin-left: 1rem;
+  }
+  .footer-contact-us a img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .location-address1 {
+    margin-top: 2rem;
+  }
+  .location-address a img {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .contact-footer_items {
+    margin-left: -0.2rem;
   }
 }
